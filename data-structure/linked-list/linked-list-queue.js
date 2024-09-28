@@ -1,6 +1,6 @@
 import { LinkedList } from "./linked-list-optimized.js";
 
-class LinkedListQueue {
+export class LinkedListQueue {
   constructor() {
     this.list = new LinkedList();
   }
@@ -36,17 +36,17 @@ class LinkedListQueue {
   }
 }
 
-const queue = new LinkedListQueue();
+// const queue = new LinkedListQueue();
 
-console.log(queue.isEmpty());
-console.log(queue.size());
-queue.enqueue(1);
-queue.enqueue(2);
-queue.enqueue(3);
-queue.enqueue(4);
-console.log(queue.isEmpty());
-console.log(queue.dequeue());
-console.log(queue.peek());
-console.log(queue.size());
+// console.log(queue.isEmpty());
+// console.log(queue.size());
+// queue.enqueue(1);
+// queue.enqueue(2);
+// queue.enqueue(3);
+// queue.enqueue(4);
+// console.log(queue.isEmpty());
+// console.log(queue.dequeue());
+// console.log(queue.peek());
+// console.log(queue.size());
 
-queue.print();
+// queue.print();
